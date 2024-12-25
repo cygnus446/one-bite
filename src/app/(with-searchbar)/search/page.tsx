@@ -31,6 +31,7 @@ export default function Page({
   searchParams: {
     q?: string;
   };
+  // searchParams: Promise<{q?: string;}>;
 }) {
   return (
     <Suspense
